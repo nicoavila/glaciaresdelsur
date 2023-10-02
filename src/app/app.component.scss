@@ -6,6 +6,12 @@
   background-size: 40%;
   background-position: 50% 25%;
 
+  @media screen and (max-width: 767px) {
+    background-size: 90%;
+    background-position: 50% 20%;
+    min-height: 400px;
+  }
+
   display: flex;
   flex-direction: column;
   justify-content: end;
