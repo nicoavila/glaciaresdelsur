@@ -1,33 +1,27 @@
 .hero {
-  min-height: 600px;
   background-color: #f0efef;
-  background-image: url('/assets/images/centolla.png');
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: 50% 25%;
+  background-image: url('/assets/images/background.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
 
-  @media screen and (max-width: 767px) {
-    background-size: 90%;
-    background-position: 50% 20%;
-    min-height: 400px;
+  .font1 {
+    font-family: 'Noto Sans', sans-serif;
   }
 
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-  padding-bottom: 30px;
+  @media screen and (max-width: 767px) {
+    min-height: 400px;
+  }
 }
 .hero-down {
-  font-family: 'Lora', serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .font1 {
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 2rem;
   text-align: center;
 }
 
 .font2 {
-  font-family: 'Lora', serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
